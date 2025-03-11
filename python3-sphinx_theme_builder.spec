@@ -2,7 +2,7 @@
 Summary:	A tool for authoring Sphinx themes with a simple (opinionated) workflow
 Name:		python3-%{module}
 Version:	0.2.0b2
-Release:	2
+Release:	3
 License:	MIT
 Group:		Libraries/Python
 Source0:	https://pypi.debian.net/%{module}/sphinx-theme-builder-%{version}.tar.gz
