@@ -1,5 +1,6 @@
 %define		module	sphinx_theme_builder
 Summary:	A tool for authoring Sphinx themes with a simple (opinionated) workflow
+Summary(pl.UTF-8):	Narzędzie do tworzenia motywów Sphinksa z prostym przebiegiem pracy
 Name:		python3-%{module}
 Version:	0.2.0b2
 Release:	3
@@ -25,6 +26,15 @@ existing standardised tools.
 - development server, with rebuild-on-save and automagical browser
   reloading
 - consistent repository structure across themes
+
+%description -l pl.UTF-8
+Usprawniony przebieg tworzenia motywów Sphinksa poprzez budowanie w
+oparciu o ustandaryzowane narzędzia.
+- uproszczone pakietowanie
+- uproszczona konfiguracja narzędzi do JavaScriptu
+- serwer rozwojowy z przebudowywaniem w trakcie zapisu i automagicznym
+  przeładowywaniem przeglądarki
+- spójna struktura repozytorium między motywami
 
 %prep
 %setup -q -n sphinx-theme-builder-%{version}
